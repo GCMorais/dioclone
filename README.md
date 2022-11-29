@@ -1,7 +1,7 @@
 <h1 align="center"> DIO page clone </h1>
 
 <p align="center">
-Esse projeto faz parte do Imersão React_ proposto pela Alura.
+Esse projeto faz parte do Bootcamp Orange tech+ proposto pela DIO.
 </p>
 
 <p align="center">
