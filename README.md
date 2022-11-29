@@ -39,6 +39,10 @@ Projeto proposto no bootcamp da [DIO](https://www.dio.me/), que tem como objetiv
 ## 👨‍💻 Tecnologias
 
     - React
+    - React Router
+    - React-hook-form
+    - json-server (fake REST API )
+    - Axios
     - Styled-Components
     - Node e NPM
     - GIT & GITHUB
