@@ -25,6 +25,12 @@ Esse projeto faz parte do Bootcamp Orange tech+ proposto pela DIO.
 
 
 - Aplicação no Vercel [Clique aqui ](https://dioclone.vercel.app/)
+
+Para validar o login e acessar o feed, utilizar os seguintes informações:
+
+    - Email: usuario@email.com
+    - Senha: 123456
+
 ## 💻 Projeto
 
 Projeto proposto no bootcamp da [DIO](https://www.dio.me/), que tem como objetivo a construção de um clone de sua web page
