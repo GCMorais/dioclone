@@ -1,4 +1,4 @@
-<h1 align="center"> AluraTube    </h1>
+<h1 align="center"> DIO page clone </h1>
 
 <p align="center">
 Esse projeto faz parte do Imersão React_ proposto pela Alura.
