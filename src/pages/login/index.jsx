@@ -23,23 +23,22 @@ const Login = () => {
 
     const navigate = useNavigate()
 
-    const { control, handleSubmit, formState: { errors, isValid  } } = useForm({
+    const { control, handleSubmit, formState: { errors } } = useForm({
         resolver: yupResolver(schema),
         mode: 'onChange',
     });
 
     const onSubmit = async (formData) => {
         try{
-            const {data} = await api.get(`/users?email=${formData.email}&senha=${formData.senha}`);
+            const {data} = await api.get(`/users?email=${formData.email}&senha=${formData.password}`);
             
             if(data.length && data[0].id){
                 navigate('/feed') 
                 return
             }
 
-            alert('Usuário ou senha inválido')
         }catch(e){
-            //TODO: HOUVE UM ERRO
+            alert('Usuário ou senha inválido')
         }
     };
 
