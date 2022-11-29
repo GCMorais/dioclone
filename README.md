@@ -28,7 +28,7 @@ Esse projeto faz parte do Bootcamp Orange tech+ proposto pela DIO.
 
 Para validar o login e acessar o feed, utilizar os seguintes informações:
 
-    - Email: usuario@email.com
+    - Email: teste@email.com
     - Senha: 123456
 
 ## 💻 Projeto
