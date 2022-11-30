@@ -23,14 +23,14 @@ const Login = () => {
 
     const navigate = useNavigate()
 
-    const { control, handleSubmit, formState: { errors } } = useForm({
+    const { control, handleSubmit, formState: { errors, isValid } } = useForm({
         resolver: yupResolver(schema),
         mode: 'onChange',
     });
 
     const onSubmit = async (formData) => {
         try{
-            const {data} = await api.get(`/users?email=${formData.email}&senha=${formData.password}`);
+            const {data} = await api.get(`/users?email=${formData.email}&senha=${formData.senha}`);
             
             if(data.length && data[0].id){
                 navigate('/feed') 
